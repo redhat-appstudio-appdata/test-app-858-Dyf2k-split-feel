@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-both-tag-digest-f5n2
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-858/e2e-tests-parent-image-with-both-tag-digest-f5n2@sha256:9bb08b26a9b522c48b2c078fca8c7e8fae99b61d7bd42e1c3999859308051942
         imagePullPolicy: Always
         name: container-image
         ports:
