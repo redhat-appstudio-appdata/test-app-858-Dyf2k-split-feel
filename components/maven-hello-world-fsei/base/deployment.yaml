@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: maven-hello-world-fsei
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-858/maven-hello-world-fsei@sha256:1361ddd5884a8079afdc59119bb5f431b5dda574502bea916240890122d53c12
         name: my-java-quarkus
         ports:
         - containerPort: 8081
